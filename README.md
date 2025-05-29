@@ -340,8 +340,8 @@ NFC-capable Android device for testing
 
 ```bash
 # Repository cloning
-git clone https://github.com/your-organization/reclaim-system.git
-cd reclaim-system
+git clone https://github.com/AdityaVyavhare/Reclaim.git
+cd Reclaim
 
 # Dependency installation
 npm install
@@ -366,6 +366,10 @@ npx react-native run-ios       # iOS development
 ```
 
 ---
+
+# We are done with the app 😁 [Download Now](https://expo.dev/artifacts/eas/5MCo1augPC296eyVLfAbsd.apk)
+-- Download and signup with google , very simple 
+
 
 ## Project Metrics and Validation
 
@@ -408,21 +412,15 @@ Reclaim's architecture supports growth from individual users to institutional de
 ## Contact and Collaboration
 
 ### Project Communication
-- **Technical Inquiries**: [team.reclaim.tech@gmail.com](mailto:team.reclaim.tech@gmail.com)
-- **Business Development**: [partnerships@reclaim.app](mailto:partnerships@reclaim.app)
-- **User Support**: [support@reclaim.app](mailto:support@reclaim.app)
+- **Technical Inquiries**: [anishdeshhmukh9@gmail.com](mailto:anishdeshhmukh9@gmail.com)
 
 ### Professional Networks
-- **LinkedIn**: [Reclaim Project Team](https://linkedin.com/company/reclaim-project)
+- **LinkedIn**: [Aanish Deshmukh (network managemant)](https://www.linkedin.com/in/aanish-deshmukh-679666272/)
 - **GitHub Organization**: [Reclaim Development](https://github.com/reclaim-development)
 
 ---
 
-## License and Usage
 
-This project is released under the MIT License, enabling open collaboration while protecting intellectual property. We welcome contributions from the developer community and encourage institutional partnerships for deployment and testing.
-
----
 
 <div align="center">
 
