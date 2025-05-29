@@ -304,15 +304,11 @@ Building a comprehensive platform that includes insurance integration, replaceme
 ## Demo and Deployment
 
 ### Live Demonstrations
-- **Mobile Application**: [Download APK](link-to-apk-download)
-- **Web Dashboard**: [Access Demo](link-to-web-demo)
-- **Video Demonstration**: [Watch on YouTube](link-to-demo-video)
-- **Project Presentation**: [View Slides](link-to-presentation)
+- **Mobile Application**: [Download APK](https://expo.dev/artifacts/eas/5MCo1augPC296eyVLfAbsd.apk)
+- **Project Presentation**: [View Slides](https://www.canva.com/design/DAGjOKEUMR8/uKVF4OnAUrlW_EetAOAhJw/edit?utm_content=DAGjOKEUMR8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ### Repository Information
-- **Main Repository**: [GitHub - Reclaim System](link-to-main-repo)
-- **Machine Learning Model**: [ML Implementation](link-to-ml-repo)
-- **Backend Services**: [API Documentation](link-to-backend-repo)
+- **Main Repository**: [GitHub - Reclaim System](https://github.com/AdityaVyavhare/Reclaim)
 
 ---
 
