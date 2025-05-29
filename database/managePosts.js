@@ -1,7 +1,7 @@
 import { database } from "../firebase";
 import { ref, set, push, get, update, remove } from "firebase/database";
 import { Alert } from "react-native";
-// ✅ Create Product (Add a new item)
+//  Create Product (Add a new item)
 export const addProductItemData = async (productData) => {
   try {
     const productRef = ref(database, "products");
@@ -17,7 +17,7 @@ export const addProductItemData = async (productData) => {
   }
 };
 
-// ✅ Read All Products (Fetch all items)
+//  Read All Products (Fetch all items)
 export const getAllProducts = async () => {
   try {
     const productRef = ref(database, "products");
@@ -42,7 +42,7 @@ export const getAllProducts = async () => {
   }
 };
 
-// ✅ Update Product (Modify existing item)
+//  Update Product (Modify existing item)
 export const updateProduct = async (productId, updateData) => {
   try {
     const productRef = ref(database, `products/${productId}`);
@@ -57,7 +57,7 @@ export const updateProduct = async (productId, updateData) => {
   }
 };
 
-// ✅ Delete Product (Remove an item)
+//  Delete Product (Remove an item)
 export const deleteProduct = async (productId) => {
   try {
     const productRef = ref(database, `products/${productId}`);
