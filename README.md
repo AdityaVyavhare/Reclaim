@@ -13,7 +13,7 @@
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![NFC](https://img.shields.io/badge/NFC-4285F4?style=flat&logo=nfc&logoColor=white)](https://nfc-forum.org/)
 
-*A comprehensive solution for tracking and recovering lost personal items*
+_A comprehensive solution for tracking and recovering lost personal items_
 
 [Live Demo](#demo-and-deployment) • [Download APK](#demo-and-deployment) • [View Presentation](#demo-and-deployment) • [Watch Demo Video](#demo-and-deployment)
 
@@ -42,23 +42,27 @@ Reclaim addresses these challenges through an integrated hardware-software ecosy
 ### Core System Components
 
 **Smart Tagging Infrastructure**
+
 - Low-cost NFC tags (₹10-20 per unit) for offline identification
 - QR code generation for universal smartphone compatibility
 - Durable, waterproof tag construction for long-term use
 
 **Mobile Application Platform**
+
 - Cross-platform React Native application for Android and iOS
 - Real-time notification system using Firebase Cloud Messaging
 - Secure in-app communication without exposing personal contacts
 - Privacy-controlled information sharing
 
 **Machine Learning Engine**
+
 - Predictive analytics for suggesting likely item locations
 - Pattern recognition based on historical lost-and-found data
 - Location clustering algorithms for hotspot identification
 - Temporal analysis incorporating time-based loss patterns
 
 **Community Integration**
+
 - Social platform for posting items without attached tags
 - Crowdsourced item identification and reporting
 - Institutional deployment support for bulk tag distribution
@@ -73,15 +77,15 @@ The Reclaim system operates on a distributed architecture that ensures reliabili
 
 ### Technology Stack
 
-| Component | Technology | Implementation Purpose |
-|-----------|------------|----------------------|
-| **Mobile Frontend** | React Native | Cross-platform development efficiency |
-| **Backend Services** | Firebase/Supabase | Real-time data synchronization |
-| **Database** | Firestore NoSQL | Scalable document storage |
-| **Authentication** | Firebase Auth | Secure user management |
-| **Machine Learning** | Python, Scikit-learn | Predictive location algorithms |
-| **Mapping Services** | Google Maps API | Location services and navigation |
-| **Hardware Interface** | NFC/NDEF protocols | Tag reading and writing |
+| Component              | Technology           | Implementation Purpose                |
+| ---------------------- | -------------------- | ------------------------------------- |
+| **Mobile Frontend**    | React Native         | Cross-platform development efficiency |
+| **Backend Services**   | Firebase/Supabase    | Real-time data synchronization        |
+| **Database**           | Firestore NoSQL      | Scalable document storage             |
+| **Authentication**     | Firebase Auth        | Secure user management                |
+| **Machine Learning**   | Python, Scikit-learn | Predictive location algorithms        |
+| **Mapping Services**   | Google Maps API      | Location services and navigation      |
+| **Hardware Interface** | NFC/NDEF protocols   | Tag reading and writing               |
 
 ### System Flow Architecture
 
@@ -99,16 +103,16 @@ graph TD
     H --> I[Secure In-App Communication]
     I --> J[Location Coordination]
     J --> K[Successful Item Recovery]
-    
+
     L[Historical Data] --> M[Machine Learning Analysis]
     M --> N[Pattern Recognition]
     N --> O[Location Prediction Updates]
     O --> E
-    
+
     P[Community Platform] --> Q[Manual Lost Item Posts]
     Q --> R[Crowdsourced Item Finding]
     R --> I
-    
+
     style A fill:#e1f5fe
     style K fill:#c8e6c9
     style F fill:#fff3e0
@@ -130,17 +134,20 @@ The system maintains data integrity through encrypted communications while ensur
 Our machine learning component addresses the challenge of suggesting where to search for lost items. The system analyzes multiple data points to generate location predictions:
 
 **Algorithm Selection**
+
 - Random Forest for handling categorical location data
 - K-Nearest Neighbors for similarity-based clustering
 - Decision Trees for interpretable prediction paths
 
 **Feature Engineering**
+
 - Temporal patterns (time of day, day of week, seasonal variations)
 - Location categories (academic buildings, transportation hubs, recreational areas)
 - User behavior patterns and item types
 - Historical success rates for different recovery strategies
 
 **Model Performance**
+
 - Current prediction accuracy: 73% for primary location suggestions
 - 89% accuracy when considering top three suggested locations
 - Continuous improvement through active learning from new recovery data
@@ -176,6 +183,7 @@ The platform facilitates coordination between finders and owners through integra
 ### Current Implementation Status
 
 **Completed Development**
+
 - Full mobile application with core functionality
 - Backend infrastructure with real-time capabilities
 - Machine learning model with baseline performance
@@ -183,6 +191,7 @@ The platform facilitates coordination between finders and owners through integra
 - Privacy controls and secure messaging
 
 **Testing and Validation**
+
 - Beta testing with 150+ registered users
 - 89% successful recovery rate in controlled trials
 - Average notification delivery time: 3.2 minutes
@@ -222,13 +231,13 @@ graph TB
         D[JioTag<br/>₹749]
         E[Tile Mate<br/>₹899]
     end
-    
+
     A --> F["97% Cost Savings<br/>vs Premium Options"]
     B --> G["56x More Expensive"]
     C --> G
     D --> G
     E --> G
-    
+
     style A fill:#4caf50,color:#fff
     style B fill:#f44336,color:#fff
     style C fill:#f44336,color:#fff
@@ -242,16 +251,16 @@ graph TB
 
 #### Feature Comparison Matrix
 
-| Feature | Reclaim | Apple AirTag | Samsung SmartTag | JioTag | Traditional Methods |
-|---------|---------|--------------|------------------|--------|-------------------|
-| **Cost per Unit** | ₹15 | ₹850 | ₹799 | ₹749 | Free (Ineffective) |
-| **Universal Compatibility** | ✅ All Smartphones | ❌ iOS Only | ❌ Samsung Only | ❌ Limited Android | ❌ None |
-| **Power Requirement** | ❌ None | ✅ Battery Required | ✅ Battery Required | ✅ Battery Required | ❌ None |
-| **AI Location Prediction** | ✅ Advanced ML | ❌ None | ❌ None | ❌ None | ❌ None |
-| **Secure Communication** | ✅ In-App Chat | ❌ Phone/Email Only | ❌ Phone/Email Only | ❌ Phone/Email Only | ❌ Physical Contact |
-| **Offline Functionality** | ✅ Full NFC Support | ❌ Requires Network | ❌ Requires Network | ❌ Requires Network | ✅ Manual Only |
-| **Bulk Deployment** | ✅ Institutional Ready | ❌ Individual Purchase | ❌ Individual Purchase | ❌ Individual Purchase | ❌ Not Applicable |
-| **Privacy Controls** | ✅ Granular Settings | ❌ Limited Options | ❌ Limited Options | ❌ Limited Options | ❌ No Privacy |
+| Feature                     | Reclaim                | Apple AirTag           | Samsung SmartTag       | JioTag                 | Traditional Methods |
+| --------------------------- | ---------------------- | ---------------------- | ---------------------- | ---------------------- | ------------------- |
+| **Cost per Unit**           | ₹15                    | ₹850                   | ₹799                   | ₹749                   | Free (Ineffective)  |
+| **Universal Compatibility** | ✅ All Smartphones     | ❌ iOS Only            | ❌ Samsung Only        | ❌ Limited Android     | ❌ None             |
+| **Power Requirement**       | ❌ None                | ✅ Battery Required    | ✅ Battery Required    | ✅ Battery Required    | ❌ None             |
+| **AI Location Prediction**  | ✅ Advanced ML         | ❌ None                | ❌ None                | ❌ None                | ❌ None             |
+| **Secure Communication**    | ✅ In-App Chat         | ❌ Phone/Email Only    | ❌ Phone/Email Only    | ❌ Phone/Email Only    | ❌ Physical Contact |
+| **Offline Functionality**   | ✅ Full NFC Support    | ❌ Requires Network    | ❌ Requires Network    | ❌ Requires Network    | ✅ Manual Only      |
+| **Bulk Deployment**         | ✅ Institutional Ready | ❌ Individual Purchase | ❌ Individual Purchase | ❌ Individual Purchase | ❌ Not Applicable   |
+| **Privacy Controls**        | ✅ Granular Settings   | ❌ Limited Options     | ❌ Limited Options     | ❌ Limited Options     | ❌ No Privacy       |
 
 ### Competitive Advantages
 
@@ -274,16 +283,19 @@ Users maintain complete control over information sharing, addressing primary con
 ### Phase 2 Enhancements
 
 **Advanced Hardware Integration**
+
 - RFID support for longer-range detection
 - Integration with IoT sensor networks
 - Beacon technology for indoor positioning
 
 **Enhanced Intelligence**
+
 - Computer vision for item identification from photos
 - Natural language processing for better item descriptions
 - Advanced pattern recognition using deep learning
 
 **Platform Expansion**
+
 - Web dashboard for institutional management
 - API development for third-party integrations
 - Blockchain implementation for ownership verification
@@ -304,10 +316,12 @@ Building a comprehensive platform that includes insurance integration, replaceme
 ## Demo and Deployment
 
 ### Live Demonstrations
+
 - **Mobile Application**: [Download APK](https://expo.dev/artifacts/eas/5MCo1augPC296eyVLfAbsd.apk)
 - **Project Presentation**: [View Slides](https://www.canva.com/design/DAGjOKEUMR8/uKVF4OnAUrlW_EetAOAhJw/edit?utm_content=DAGjOKEUMR8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ### Repository Information
+
 - **Main Repository**: [GitHub - Reclaim System](https://github.com/AdityaVyavhare/Reclaim)
 
 ---
@@ -316,18 +330,19 @@ Building a comprehensive platform that includes insurance integration, replaceme
 
 **Project Contributors**
 
-| Name | Role | Specialization |
-|------|------|----------------|
-| **Aditya Vyavhare** | Full-Stack Developer | React Native, Firebase Integration |
-| **Akshata Kadu** | Machine Learning Engineer | Python, Predictive Analytics |
-| **Akshay Jha** | Mobile Application Developer | Cross-Platform Development |
-| **Anish Deshmukh** | Hardware Integration Specialist | NFC Technology, IoT Systems |
+| Name                | Role                            | Specialization                     |
+| ------------------- | ------------------------------- | ---------------------------------- |
+| **Aditya Vyavhare** | Full-Stack Developer            | React Native, Firebase Integration |
+| **Akshata Kadu**    | Machine Learning Engineer       | Python, Predictive Analytics       |
+| **Akshay Jha**      | Mobile Application Developer    | Cross-Platform Development         |
+| **Anish Deshmukh**  | Hardware Integration Specialist | NFC Technology, IoT Systems        |
 
 ---
 
 ## Installation and Setup
 
 ### Prerequisites
+
 ```bash
 Node.js 16.0 or higher
 React Native CLI
@@ -368,63 +383,18 @@ npx react-native run-ios       # iOS development
 ---
 
 # We are done with the app 😁 [Download Now](https://expo.dev/artifacts/eas/5MCo1augPC296eyVLfAbsd.apk)
--- Download and signup with google , very simple 
 
-
-## Project Metrics and Validation
-
-### Performance Indicators
-- **User Acquisition**: 15+ beta testers 
-- **Recovery Success Rate**: 89% in controlled testing environment
-- **System Response Time**: Average 1.2 minutes from scan to notification
-- **Cost Efficiency**: 97% cost reduction compared to premium alternatives
-
-### Technical Validation
-- **Scalability Testing**: System can handles 1000+ concurrent users
-- **Cross-Platform Compatibility**: Verified on 15+ device models
-- **Offline Functionality**: NFC tags operate without power or connectivity
-- **Security Assessment**: End-to-end encryption for all communications
-
----
-
-## Hackathon Submission Context
-
-### HackVortex 2025 Alignment
-
-**Innovation and Creativity**
-Reclaim introduces novel approaches to a universal problem through the combination of affordable hardware, intelligent software, and machine learning. Our solution demonstrates creativity in addressing cost barriers while maintaining functionality.
-
-**Technical Excellence**
-The project showcases proficiency across multiple technology domains: mobile development, cloud infrastructure, machine learning, and hardware integration. Our implementation demonstrates both breadth and depth of technical capability.
-
-**Real-World Impact**
-Beyond theoretical innovation, Reclaim addresses genuine user needs with measurable benefits. Our beta testing provides concrete evidence of system effectiveness and user satisfaction.
-
-**Market Viability**
-The project presents a clear business model with defined market opportunities and competitive advantages. Our cost analysis and user research support the commercial potential of the solution.
-
-**Scalability Potential**
-Reclaim's architecture supports growth from individual users to institutional deployments and eventual smart city integration. The technical foundation enables expansion without fundamental redesign.
-
----
-
-## Contact and Collaboration
-
-### Project Communication
-- **Technical Inquiries**: [anishdeshhmukh9@gmail.com](mailto:anishdeshhmukh9@gmail.com)
-
-### Professional Networks
-- **LinkedIn**: [Aanish Deshmukh (network management)](https://www.linkedin.com/in/aanish-deshmukh-679666272/)
-- **GitHub Organization**: [Reclaim Development](https://github.com/reclaim-development)
-
----
-
-
+-- Download and signup with google , very simple
 
 <div align="center">
 
+## Screenshots
+
+![](assets/images/Screenshot_one.png)
+![](assets/images/Screenshot_two.png)
+
 **Built for HackVortex 2025 by Team Reclaim**
 
-*Transforming how people recover lost belongings through intelligent technology*
+_Transforming how people recover lost belongings through intelligent technology_
 
 </div>
