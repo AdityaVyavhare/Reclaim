@@ -386,10 +386,15 @@ npx react-native run-ios       # iOS development
 
 -- Download and signup with google , very simple
 
+---
+
 ## Screenshots
 
 ![](assets/images/Screenshot_one.png)
+
 ![](assets/images/Screenshot_two.png)
+
+---
 
 <div align="center">
 
