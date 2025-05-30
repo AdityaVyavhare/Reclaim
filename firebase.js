@@ -14,6 +14,7 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase App
+
 const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
 

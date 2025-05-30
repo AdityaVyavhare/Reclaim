@@ -386,12 +386,12 @@ npx react-native run-ios       # iOS development
 
 -- Download and signup with google , very simple
 
-<div align="center">
-
 ## Screenshots
 
 ![](assets/images/Screenshot_one.png)
 ![](assets/images/Screenshot_two.png)
+
+<div align="center">
 
 **Built for HackVortex 2025 by Team Reclaim**
 
