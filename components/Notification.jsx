@@ -4,6 +4,7 @@ import { Entypo, Feather } from "@expo/vector-icons";
 import getTimeAgo from "@/utils/getTimeAgo";
 import { makeCall } from "@/utils/contact";
 import openGoogleMaps from "@/utils/openGoogleMaps";
+
 export default function Notification({ notification }) {
   const styles = createStyles();
   return (

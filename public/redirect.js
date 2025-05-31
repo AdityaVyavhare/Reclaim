@@ -3,6 +3,7 @@ const itemId = new URLSearchParams(window.location.search).get("itemId");
 
 const appLink = `reclaim://?itemId=${itemId}`;
 const apkLink = "https://expo.dev/artifacts/eas/5MCo1augPC296eyVLfAbsd.apk";
+
 // Try to open the app
 window.location.href = appLink;
 
