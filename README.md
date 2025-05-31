@@ -305,6 +305,8 @@ Building a comprehensive platform that includes insurance integration, replaceme
 
 ### Live Demonstrations
 - **Mobile Application**: [Download APK](https://expo.dev/artifacts/eas/5MCo1augPC296eyVLfAbsd.apk)
+- **Demo Link**: [view Demo](https://drive.google.com/file/d/1f8_qByVAuoFSSorJdoodmvG_GPwLoNli/view?usp=sharing)
+
 - **Project Presentation**: [View Slides](https://www.canva.com/design/DAGjOKEUMR8/uKVF4OnAUrlW_EetAOAhJw/edit?utm_content=DAGjOKEUMR8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ### Repository Information
