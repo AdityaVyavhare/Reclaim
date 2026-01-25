@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1089048669519",
+    "firebase_url": "https://reclaim-4397d-default-rtdb.firebaseio.com",
+    "project_id": "reclaim-4397d",
+    "storage_bucket": "reclaim-4397d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089048669519:android:1389e44c64feea7b87e93a",
+        "android_client_info": {
+          "package_name": "com.aditya_vyavhare.Reclaim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089048669519-34h35ifu9hjqp5js3s2u3p7nfsi6jkle.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aditya_vyavhare.Reclaim",
+            "certificate_hash": "18441bdba6c7f9ddeef0647e4f21d927912e3e0c"
+          }
+        },
+        {
+          "client_id": "1089048669519-q4jjolu2d0h79hmops1btbi6158dv5ci.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aditya_vyavhare.Reclaim",
+            "certificate_hash": "c0cfdcc03af5dfaf567271f53ff390faa9383757"
+          }
+        },
+        {
+          "client_id": "1089048669519-8j5464jaolk644huojdl802ggj67856b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZf8bqaUR6NMws3IvrTY_cgbQ7lvSwQj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089048669519-8j5464jaolk644huojdl802ggj67856b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
