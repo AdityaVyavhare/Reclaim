@@ -6,7 +6,6 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-**HackVortex 2025 Submission | Software + Hardware Track**
 
 [![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat&logo=react&logoColor=61DAFB)](https://reactnative.dev/)
 [![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=flat&logo=Firebase&logoColor=white)](https://firebase.google.com/)
@@ -328,18 +327,6 @@ Building a comprehensive platform that includes insurance integration, replaceme
 
 ---
 
-## Development Team
-
-**Project Contributors**
-
-| Name                | Role                            | Specialization                     |
-| ------------------- | ------------------------------- | ---------------------------------- |
-| **Aditya Vyavhare** | Full-Stack Developer            | React Native, Firebase Integration |
-| **Akshata Kadu**    | Machine Learning Engineer       | Python, Predictive Analytics       |
-| **Akshay Jha**      | Mobile Application Developer    | Cross-Platform Development         |
-| **Anish Deshmukh**  | Hardware Integration Specialist | NFC Technology, IoT Systems        |
-
----
 
 ## Installation and Setup
 
@@ -400,7 +387,6 @@ npx react-native run-ios       # iOS development
 
 <div align="center">
 
-**Built for HackVortex 2025 by Team Reclaim**
 
 _Transforming how people recover lost belongings through intelligent technology_
 

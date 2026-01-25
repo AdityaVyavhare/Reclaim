@@ -4,23 +4,12 @@ import { Entypo, Feather } from "@expo/vector-icons";
 import getTimeAgo from "@/utils/getTimeAgo";
 import { makeCall } from "@/utils/contact";
 import openGoogleMaps from "@/utils/openGoogleMaps";
-import { useSelector, useDispatch } from "react-redux";
-import { setUser } from "@/store/userSlice";
 
 export default function Notification({ notification, clearHandler }) {
-  const uid = useSelector((state) => state.user?.user?.uid);
-  const user = useSelector((state) => state.user.user);
 
-  const dispatch = useDispatch();
 
-  const reclaimItemHandler = async () => {
-    console.log("reclaimItemHandler");
-    try {
-      await clearHandler();
-    } catch (err) {
-      console.log(err.message);
-    }
-  };
+
+
 
   const styles = createStyles();
   return (
@@ -57,14 +46,7 @@ export default function Notification({ notification, clearHandler }) {
           <Entypo name="location-pin" size={20} color={"#4F378B"} />
           <Text style={styles.buttonTextOutlined}>Location</Text>
         </TouchableOpacity>
-        <TouchableOpacity
-          style={styles.reclaimItem}
-          onPress={reclaimItemHandler}
-        >
-          <Text style={styles.reclaimItem_buttonTextOutlined}>
-            Reclaim Item
-          </Text>
-        </TouchableOpacity>
+     
 
         <Text style={styles.timeText}>{getTimeAgo(notification.time)}</Text>
       </View>
@@ -130,30 +112,13 @@ const createStyles = () => {
       justifyContent: "center",
       alignItems: "center",
     },
-    reclaimItem: {
-      borderColor: "white",
-      borderWidth: 1,
-      borderRadius: 10,
-      paddingVertical: 8,
-      paddingHorizontal: 12,
-      marginRight: 10,
-      display: "flex",
-      flexDirection: "row",
-      gap: 5,
-      justifyContent: "center",
-      alignItems: "center",
-      backgroundColor: "#584192",
-    },
+  
     buttonTextOutlined: {
       color: "#584192",
       fontSize: 14,
       fontWeight: "600",
     },
-    reclaimItem_buttonTextOutlined: {
-      color: "white",
-      fontSize: 14,
-      fontWeight: "600",
-    },
+  
     timeText: {
       fontSize: 12,
       color: "#999",

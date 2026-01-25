@@ -72,8 +72,7 @@ export default function FileUploadForm() {
         itemName &&
         selectedFile &&
         itemCategory &&
-        itemDescription &&
-        itemReward
+        itemDescription 
       ) {
         setIsLoading(true);
         const imageUrl = await upload_image(uid, selectedFile, itemName);
@@ -138,8 +137,7 @@ export default function FileUploadForm() {
         itemName &&
         selectedFile &&
         itemCategory &&
-        itemDescription &&
-        itemReward
+        itemDescription 
       ) {
         setIsLoading(true);
         let imageUrl = selectedFile;
