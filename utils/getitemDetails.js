@@ -46,7 +46,6 @@ const getitemDetails = async (itemId, user) => {
       scannedBy: user.displayName,
       lastLocation: locationData,
       contact: user.phoneNumber,
-      itemReward: itemDetails.itemReward,
       uid: user.uid,
     };
     sendPushNotification(expotoken, data);

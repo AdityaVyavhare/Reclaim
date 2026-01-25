@@ -74,11 +74,7 @@ const SettingsScreen = () => {
         title="Saved Items"
         badge="New"
       />
-      <OptionItem
-        icon={<Ionicons name="star-outline" size={20} color="black" />}
-        title="My Rewards"
-        badge="New"
-      />
+
       <OptionItem
         icon={
           <Ionicons

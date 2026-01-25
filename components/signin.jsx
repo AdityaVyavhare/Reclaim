@@ -71,7 +71,6 @@ export default function Signin() {
             location: true,
           },
           location: null,
-          totalRewards: 100,
           expotoken,
         };
         dispatch(setUser({ ...temp, uid: user.uid }));

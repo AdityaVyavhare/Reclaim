@@ -100,9 +100,7 @@ const Item = ({ item, fetchAllItems }) => {
           <View style={styles.divider} />
           <View style={styles.bottom}>
             <Text style={styles.agoo}>{getTimeAgo(item.dateRegistered)}</Text>
-            <View style={styles.rewardContainer}>
-              <Text style={styles.itemReward}>Reward ${item.itemReward}</Text>
-            </View>
+
 
             <View style={styles.update}>
               <TouchableOpacity onPress={editHandler}>

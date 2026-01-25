@@ -1,6 +1,6 @@
 import { View, Image, TouchableOpacity } from "react-native";
 import React from "react";
-import Coin from "./Coin";
+
 import { useRouter } from "expo-router";
 export default function HeaderRight({ user }) {
   const router = useRouter();
@@ -15,7 +15,7 @@ export default function HeaderRight({ user }) {
         gap: 15,
       }}
     >
-      <Coin size={30} label={totalReward} />
+
       <TouchableOpacity
         onPress={() => {
           router.replace("/(settings)");

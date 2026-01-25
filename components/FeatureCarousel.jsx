@@ -20,11 +20,7 @@ const carouselItems = [
     description: "See items found near your location.",
     icon: "https://img.icons8.com/color/96/worldwide-location.png",
   },
-  {
-    title: "Rewards & Points",
-    description: "Earn points for helping others!",
-    icon: "https://img.icons8.com/color/96/gift.png",
-  },
+
 ];
 
 const FeaturesCarousel = () => {

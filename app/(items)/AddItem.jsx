@@ -37,7 +37,6 @@ export default function FileUploadForm() {
   );
   const [selectedFile, setSelectedFile] = useState(item?.imageUrl || null);
   const [isLoading, setIsLoading] = useState(false);
-  const [itemReward, setItemRewards] = useState(item?.itemReward || 0);
 
   const pickFile = async () => {
     const { status } = await ImagePicker.requestMediaLibraryPermissionsAsync();
@@ -101,7 +100,6 @@ export default function FileUploadForm() {
           itemDescription,
           imageUrl,
           lastLocation: locationData,
-          itemReward,
         };
         const iid = await addItem_db(uid, "registeredItems", {
           ...initial,
@@ -169,7 +167,6 @@ export default function FileUploadForm() {
           itemDescription,
           imageUrl,
           lastLocation: locationData,
-          itemReward,
         };
         const iid = item.iid;
 
@@ -204,7 +201,6 @@ export default function FileUploadForm() {
       SetitemCategory("");
       setitemDescription("");
       setSelectedFile(null);
-      setItemRewards(0);
     }
   }, []);
 
@@ -250,15 +246,6 @@ export default function FileUploadForm() {
           onChangeText={SetitemCategory}
           mode="outlined"
           style={styles.input}
-        />
-        <TextInput
-          label="Item Reward"
-          value={itemReward.toString()}
-          onChangeText={(val) => setItemRewards(val)}
-          mode="outlined"
-          style={styles.input}
-          keyboardType="phone-pad"
-          maxLength={5}
         />
         <TextInput
           label="Item Description"

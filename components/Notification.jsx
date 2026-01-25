@@ -6,7 +6,7 @@ import { makeCall } from "@/utils/contact";
 import openGoogleMaps from "@/utils/openGoogleMaps";
 import { useSelector, useDispatch } from "react-redux";
 import { setUser } from "@/store/userSlice";
-import { incrementReward, decrementReward } from "@/utils/updateReward";
+
 export default function Notification({ notification, clearHandler }) {
   const uid = useSelector((state) => state.user?.user?.uid);
   const user = useSelector((state) => state.user.user);
@@ -16,16 +16,7 @@ export default function Notification({ notification, clearHandler }) {
   const reclaimItemHandler = async () => {
     console.log("reclaimItemHandler");
     try {
-      dispatch(
-        setUser({
-          ...user,
-          totalRewards: user.itemReward - notification.itemReward,
-        })
-      );
-
       await clearHandler();
-      await decrementReward(uid, +notification.itemReward);
-      await incrementReward(notification.uid, +notification.itemReward);
     } catch (err) {
       console.log(err.message);
     }
